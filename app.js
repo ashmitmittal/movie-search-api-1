@@ -22,6 +22,6 @@ app.get("/results",function(req,res){
 });
 
 
-app.listen(3000,function(){
-    console.log("Server sarted at port 3000!");
+app.listen(process.env.PORT,function(){
+    console.log("Server sarted!");
 });
